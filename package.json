@@ -74,6 +74,10 @@
       "env_installer/sign*.txt"
     ],
     "afterSign": "scripts/notarize.js",
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false
+    },
     "linux": {
       "target": [
         "deb",
